@@ -1,0 +1,23 @@
+.card {
+  width: 100px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: transform 0.2s;
+  font-size: 2em;
+}
+
+.card.flipped {
+  background-color: #4caf50;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
